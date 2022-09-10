@@ -5,6 +5,15 @@
 #include <stdio.h>
 /* more headers goes there */
 
+/**
+ *
+ * *main - generates arandom number
+ *
+ * *outputs whether 0 ,negative , or positive
+ *
+ * *Return: 0
+ *
+ */
 
 
 /* betty style doc for function main goes there */
