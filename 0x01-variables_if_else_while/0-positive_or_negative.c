@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *  main - generates a random numebr 
+ * main - generates a random numebr 
  *
  * outputs ehether anumber is zero, positive or negative
  *
@@ -17,8 +17,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/*your code goes here */
-	
-	if (n == 0 )
+	if (n == 0)
 
 	{
 		printf("%d is zero\n", n);
@@ -29,7 +28,7 @@ int main(void)
 	}
 	else
 	     {
-			printf("%d is positive\n", n);
+		   printf("%d is positive\n", n);
 		}
 	return (0);
 }
