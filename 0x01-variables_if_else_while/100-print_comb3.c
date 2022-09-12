@@ -1,4 +1,4 @@
-#include <sttdio.h>
+#include <stdio.h>
 
 /**
 *main - prints programme that executes different commbinations of twoo digit
