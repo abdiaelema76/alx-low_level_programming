@@ -11,8 +11,8 @@
 
 int main(void)
 {
-	_putchar(_putchar);
-	_putchar('\n');
+	printf(_putchar);
+	putchar('\n');
 
 	return (0);
 
