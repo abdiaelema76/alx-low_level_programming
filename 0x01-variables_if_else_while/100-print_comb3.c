@@ -11,19 +11,30 @@ int main(void)
 {
 	int i, j;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 48; i <= 56; i++)
+	{
+	for (j = 49; j <= 57; j++)
+	{
+	if (j > i)
+
 	{
 	putchar(i);
-	}
-	for (j = 0; j <= 9; j++)
-	{
+
 	putchar(j);
-	}
+
+	if (n != 56 || m != 57)
+	{
+
 	putchar(',');
 
-	putchar(" ");
+	putchar(' ');
+	}
+	}
+	}
+	}
 
 	putchar('\n');
+
 
 	return (0);
 
