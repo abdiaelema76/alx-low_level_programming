@@ -7,11 +7,11 @@
 *Return: return int value
 */
 
-int _strlen(char s)
+int _strlen(char *s)
 {
 	int count = 0;
 
-	while (*s != '\');
+	while (*s != '\0')
 
 	{
 	count += 1;
