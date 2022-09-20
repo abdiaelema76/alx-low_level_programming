@@ -28,7 +28,7 @@ int _atoi(char *s)
 		if (!(s[len + 1] >= '0' && s[len + 1] <= '9'))
 		break;
 		}
-		len++
+		len++;
 		}
 
 	for (; numcount > 1; numcount--)
