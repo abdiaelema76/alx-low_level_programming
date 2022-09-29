@@ -4,6 +4,7 @@
 /**
 *_puts_recursion -  function that prints a string ,folloewd by new line.
 *@s: string
+*Return: returns void
 */
 void _puts_recursion(char *s)
 {
