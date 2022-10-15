@@ -4,21 +4,24 @@
 #include <stdarg.h>
 
 /**
-*sum_them_all - function that returns the sum of all its parameters
-*@n: Number of args
-*Return: 0 if n = 0 or sum
+*print_numbers - a function that print numbers
+*@separator: number seperator
+*@n: number counts
+*Return: void
 */
 
-int sum_them_all(const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
+	unsigned int i;
 	va_list ap;
-	unsigned int i, sum;
 
 	va_start(ap, n);
-
-	if (n < 1)
-		return (0);
 	for (i = 0; i < n; i++)
-		sum += va_arg(ap, int);
-	return (sum);
+	{
+		printf("%d", va_arg(ap, int));
+		if ((separator) && (i < n - 1))
+			printf("%s", separator);
+	}
+	printf("\n");
+	va_end(ap);
 }
