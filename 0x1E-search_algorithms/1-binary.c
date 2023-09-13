@@ -6,8 +6,7 @@
  * @start: The index of the first element to be printed
  * @end: The index of the last element to be printed
  */
-void print_array:wq
-(iint *array, size_t l, size_t r)
+void print_array(int *array, size_t l, size_t r)
 {
 	size_t i = 0;
 
