@@ -1,6 +1,6 @@
 #include "search_algos.h"
 /**
- * print_array - Prints an array of integers
+ * print_array - Prints an array of integers between two indices
  *
  * @array: A pointer to the first element of the array to be  printed
  * @start: The index of the first element to be printed
