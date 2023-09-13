@@ -3,8 +3,8 @@
  * print_array - Prints an array of integers between two indices
  *
  * @array: A pointer to the first element of the array to be  printed
- * @start: The index of the first element to be printed
- * @end: The index of the last element to be printed
+ * @l: The index of the first element to be printed
+ * @r: The index of the last element to be printed
  */
 void print_array(int *array, size_t l, size_t r)
 {
